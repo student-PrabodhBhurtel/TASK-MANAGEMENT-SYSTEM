@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+struct task{
+int id;
+chat name;
+char deadline;
+char status;
+}t;
+
+void addTask();
+void displayTask();
+void searchTask();
+void updateTask();
+void deleteTask();
+
+int main(){
+ printf("\n=====================================\n");
+        printf("      TASK MANAGEMENT SYSTEM\n");
+        printf("=====================================\n");
+        printf("1. Add Task\n");
+        printf("2. Display Tasks\n");
+        printf("3. Search Task\n");
+        printf("4. Update Task\n");
+        printf("5. Delete Task\n");
+        printf("6. Exit\n");
+}
+

@@ -4,9 +4,9 @@
 
 struct task{
 int id;
-chat name;
-char deadline;
-char status;
+chat name[50];
+char deadline[50];
+char status[50];
 }t;
 
 void addTask();

@@ -57,3 +57,18 @@ int main() {
 
     return 0;
 }
+
+void addTask(){
+}
+
+void displayTask(){
+}
+
+void searchTask(){
+}
+
+void updateTask(){
+}
+
+void deleteTask(){
+}
